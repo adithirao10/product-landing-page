@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+#nav .nav-link{
+    color:black;
+}
+.nav-link{  
+  color:white;
+  font-size: 0.8rem;
+  margin: 0px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider-title {
+      position:absolute;
+      top:100px;
+      left:100px;
+      border-top: 100px solid yellow;
+      border-right:100px solid transparent;
+      font-size: 3rem;
+    color: black;
+
+  }
+  .slider-title h2{
+    position: relative;
+    top: -80px;
+  }
+  
+  .carwash{
+    position:absolute;
+      top:170px;
+      left:375px;
+      font-size: 3.5rem;
+      color: white;
+  }
+  .carwash .first{
+    position: relative;
+    top:10px;
+    left: -418px;
+  }
+  .carwash .second{
+      position:relative;
+      top:-50px;
+      left:-276px;
+      margin-bottom: 0px;
+  }
+  .bt{
+    position:absolute;
+    top:350px;
+    left:100px
+  }
+  @media(max-width:600px){
+    .slider-title {
+        position:absolute;
+        top:50px;
+        left:100px;
+        border-top: 50px solid yellow;
+        border-right:50px solid transparent;
+        font-size: .5rem;
+        color: black;
+  
+    }
+    .slider-title h2{
+      position: relative;
+      top: -40px;
+    }  
+    .carwash{
+        position:absolute;
+        top:100px;
+        left:1px;
+        font-size: 1rem;
+        color: white;
+      }
+      .carwash.second{
+          position: absolute;
+          top: -20px;
+      }
+      .bt{
+
+        position:absolute;
+        top:150px;
+        left:100px
+      }
+      
+  }
+.details{
+    margin-right: 8rem;
+    margin-left: 8rem;
+}
+
+.card-detail{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border-radius: 25px;
+}
+.card-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+   
+}
+.card-body{
+    background-color: #002266;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+  
+.apt-details{
+    background-color: #3366cc;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.apt-details h2{
+    font-size: 1.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+button.button1{
+    background-color: cyan;
+    color:white;
+    border: 4px solid transparent;
+    margin: 4px;
+    padding: 4px;
+    font-size: 1rem;
+}
+button.button2{
+    border: 4px solid transparent;
+    margin: 4px;
+    padding: 4px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 25px;
+    font-size: 1rem;  
+}
+.accordian{
+    max-width:100 px;
+    display: block;
+    margin:100px auto;
+}
+.headings{
+    text-align: center;
+}
+.product {
+    background-color: white;
+    width: 240px;
+    border: 2px solid whitesmoke;
+    margin: 20px; 
+    height: 27rem; 
+}
+.product:hover{
+    border: 2px solid cadetblue;
+}
+.product .level {
+    background-color: #e0ebeb;
+    columns: black;
+    font-size: 1.5 rem;  
+    text-align: center;
+    height: 2rem;
+}
+.level:hover{
+    background-color: cornflowerblue;
+}
+.det{
+   text-align: center;
+    
+}
+.product > ul > li {
+    font-size: 0.7rem;
+    position: relative;
+}
+button.button3{
+   background-color:white;
+   color: black;
+   padding:2px;
+   position: relative;
+   left: 60px;
+   bottom: -200px;
+   border: 2px solid #00ccff;
+}
+.button3:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+button.button4{
+    background-color:white;
+    color: black;
+    padding: 2px;
+    position: relative;
+    left: 60px;
+    bottom: -136px;
+    border: 2px solid #00ccff;
+}
+.button4:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+button.button5{
+    background-color:white;
+    color: black;
+    padding:2px;
+    position: relative;
+    left: 60px;
+   bottom: -94px;
+   border: 2px solid #00ccff;
+}
+.button5:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+button.button6{
+    background-color:white;
+   color: black;
+   padding: 2px;
+   position: relative;
+   left: 60px;
+   bottom: -50px;
+   border: 2px solid #00ccff;
+}
+.button6:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+.wrapper{
+    width: 100%;
+    
+    
+  }
+.carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+.carousel.card{
+  background:white;
+  height: 100%;
+  color:black;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 39px;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  }
+.rating i {
+    color: #a2a2a2;
+}
+.rating .checked {
+    color: #e6b800;
+}
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .owl-dot{
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 10px;
+    border: 5px solid grey!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: grey!important;
+  }
+.footer{
+    background-color: midnightblue;
+    background-size:100% 130px;
+    overflow: hidden;
+}
+.footer-subsection{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.footer-logo{
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footer-links a {
+    
+    text-decoration: none;
+    color: white;  
+}
+.footer-links h3{
+    font-size: 0.8rem;
+}
+ a li{
+    color: white; 
+    float:left;
+    
+}
+.call h6{
+    color: white;
+}
+.call p{
+margin-bottom: 0;
+color: white;
+font-size: .9rem;
+}
+.location p {
+    margin-bottom: 0;
+    color: white;
+    font-size: .9rem;
+}
+.time p{
+    margin-bottom: 0;
+    color: white;
+    font-size: .9rem;
+}
