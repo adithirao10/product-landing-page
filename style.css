@@ -88,7 +88,7 @@ body{
   }
   .bt{
     position:absolute;
-    top:350px;
+    top:20rem;
     left:100px
   }
   @media(max-width:600px){
