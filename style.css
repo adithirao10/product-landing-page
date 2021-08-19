@@ -109,18 +109,13 @@ body{
     .carwash{
         position:absolute;
         top:100px;
-        left:1px;
-        font-size: 1rem;
+        font-size: 2rem;
         color: white;
-      }
-      .carwash.second{
-          position: absolute;
-          top: -20px;
       }
       .bt{
 
         position:absolute;
-        top:150px;
+        top:180px;
         left:100px
       }
       
