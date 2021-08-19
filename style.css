@@ -14,6 +14,9 @@ body{
 #nav .nav-link{
     color:black;
 }
+#nav .nav-link:hover{
+    color: cadetblue;
+}
 .nav-link{  
   color:white;
   font-size: 0.8rem;
