@@ -114,7 +114,8 @@ body{
       }
       .carwash .first{
           position: absolute;
-          top:0px;
+          top:20px;
+          left:-280px;
       }
       .carwash .second{
         position:absolute;
