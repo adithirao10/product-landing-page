@@ -77,13 +77,12 @@ body{
   }
   .carwash .first{
     position: relative;
-    top:10px;
-    left: -418px;
-    bottom: 2rem;
+    top:15px;
+    left: -390px;
   }
   .carwash .second{
       position:relative;
-      top:-50px;
+      top:-40px;
       left:-280px;
       margin-bottom: 0px;
   }
