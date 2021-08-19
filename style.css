@@ -112,8 +112,16 @@ body{
         font-size: 2rem;
         color: white;
       }
+      .carwash .first{
+          position: absolute;
+          top:0px;
+      }
+      carwash .second{
+        position:absolute;
+        top:0px;
+        
+      }
       .bt{
-
         position:absolute;
         top:180px;
         left:100px
