@@ -115,11 +115,13 @@ body{
       .carwash .first{
           position: absolute;
           top:20px;
-          left:-280px;
+          left:-350px;
+          margin-bottom: 0px;
       }
       .carwash .second{
         position:absolute;
-        top:0px;
+        top:20px;
+        right: -160px;
 
       }
       .bt{
